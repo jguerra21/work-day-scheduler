@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work Day Planner</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="background-wrap">
+        <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+            <source src="./images/4K_Silver_White_Sparkles_loop_Videvo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h1></h1>
+    <div class="container background-wrap" id="main-div">
+        <div class="row">
+            <div class="col-12">
+                <h1>Work Day Scheduler</h1>
+                <h6>A simple calendar app for scheduling your work day</h6>
+                <p id="top-text"></p>
+            </div>
+            
+        </div>
+        <br>
+        <div class="container" id="planner-layout-container">
+
+            <div class="row" class="" id="row1">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="9">9:00AM</div>
+                <input class="col-8 planner-rows inputfield" id="input1" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row2">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="10">10:00AM</div>
+                <input class="col-8 planner-rows inputfield" id="input2" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row3">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="11">11:00AM</div>
+                <input class="col-8 planner-rows inputfield" id="input3" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row4">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="12">12:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input4" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row5">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="13">1:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input5" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save text"></i></div>
+            </div>
+            <div class="row" class="" id="row6">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="14">2:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input6" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row7">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="15">3:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input7" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row8">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="16">4:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input8" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+            <div class="row" class="" id="row9">
+                <div class="timeClass col-2 planner-rows" id="planner-row-1" data-time="17">5:00PM</div>
+                <input class="col-8 planner-rows inputfield" id="input9" placeholder=""></input>
+                <div class="col-2 planner-rows planner-buttons" id="planner-button-1"><i class="far fa-save"></i></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <footer> - Jolie Guerra -<br>&copy; 2020</footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
