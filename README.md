@@ -28,3 +28,7 @@ Here is a screenshot of my finalwork below. Fully functional Work day Scheduler.
 
 ![](images/Screenshot.jpeg)
 
+
+Local storage is saving all the content and if i refresh page events persist.
+
+![](images/Screeshot2.jpeg)
