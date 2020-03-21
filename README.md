@@ -1,3 +1,5 @@
+Deployed live website: https://jguerra21.github.io/work-day-scheduler/index.html
+
 # work-day-scheduler
 I have created a full functional work day planner using HTML, Bootstrap and Jquery. I have used different fonts, colors and style from the one provided to challenge my self along the way.
 Also in this project i have used Moment.js to implement the time on top of the calendar as well when user schedule the time the coded colors come into action as they turn different colors.
